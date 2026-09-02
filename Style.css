@@ -1,0 +1,77 @@
+style.css
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #090014, #16002b, #00152e);
+  color: white;
+  text-align: center;
+}
+
+header {
+  padding: 60px 20px 30px;
+}
+
+header h1 {
+  font-size: 45px;
+  margin-bottom: 12px;
+}
+
+header p {
+  color: #c9c9d6;
+  font-size: 18px;
+}
+
+.game-card {
+  width: 90%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 35px 20px;
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+}
+
+.game-card h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.game-card p {
+  color: #bbb;
+  margin-bottom: 25px;
+}
+
+button {
+  padding: 14px 30px;
+  border: none;
+  border-radius: 30px;
+  background: #7c3aed;
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+#gameArea {
+  margin-top: 30px;
+  min-height: 200px;
+  padding: 40px 10px;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+footer {
+  margin-top: 50px;
+  padding: 25px;
+  color: #888;
+}
